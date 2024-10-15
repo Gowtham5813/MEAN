@@ -10,7 +10,11 @@ import { SelectbusPageComponent } from './Component/selectbus-page/selectbus-pag
 import { HeaderComponent } from './Component/selectbus-page/header/header.component';
 import { LeftComponent } from './Component/selectbus-page/left/left.component';
 import { RightComponent } from './Component/selectbus-page/right/right.component';
-import {MatIconModule} from '@angular/material/icon'
+import {MatIconModule} from '@angular/material/icon';
+import { SortingBarComponent } from './Component/selectbus-page/right/sorting-bar/sorting-bar.component';
+import { BusBoxComponent } from './Component/selectbus-page/right/bus-box/bus-box.component';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +24,9 @@ import {MatIconModule} from '@angular/material/icon'
     SelectbusPageComponent,
     HeaderComponent,
     LeftComponent,
-    RightComponent
+    RightComponent,
+    SortingBarComponent,
+    BusBoxComponent
   ],
   imports: [
     BrowserModule,
