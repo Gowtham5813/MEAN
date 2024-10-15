@@ -13,6 +13,8 @@ import { RightComponent } from './Component/selectbus-page/right/right.component
 import {MatIconModule} from '@angular/material/icon';
 import { SortingBarComponent } from './Component/selectbus-page/right/sorting-bar/sorting-bar.component';
 import { BusBoxComponent } from './Component/selectbus-page/right/bus-box/bus-box.component';
+import { BottomTabComponent } from './Component/selectbus-page/right/bus-book/bottom-tab/bottom-tab.component';
+import { ViewSeatsComponent } from './Component/selectbus-page/right/view-seats/view-seats.component';
 
 
 @NgModule({
@@ -26,7 +28,9 @@ import { BusBoxComponent } from './Component/selectbus-page/right/bus-box/bus-bo
     LeftComponent,
     RightComponent,
     SortingBarComponent,
-    BusBoxComponent
+    BusBoxComponent,
+    BottomTabComponent,
+    ViewSeatsComponent
   ],
   imports: [
     BrowserModule,
