@@ -10,7 +10,7 @@ import { SelectbusPageComponent } from './Component/selectbus-page/selectbus-pag
 import { HeaderComponent } from './Component/selectbus-page/header/header.component';
 import { LeftComponent } from './Component/selectbus-page/left/left.component';
 import { RightComponent } from './Component/selectbus-page/right/right.component';
-
+import {MatIconModule} from '@angular/material/icon'
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +24,8 @@ import { RightComponent } from './Component/selectbus-page/right/right.component
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatIconModule
   ],
   providers: [
     provideClientHydration()
