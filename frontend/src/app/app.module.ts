@@ -17,6 +17,7 @@ import { BottomTabComponent } from './Component/selectbus-page/right/bus-book/bo
 import { ViewSeatsComponent } from './Component/selectbus-page/right/view-seats/view-seats.component';
 import { FormDrawerComponent } from './Component/selectbus-page/right/form-drawer/form-drawer.component';
 import { SmallSeatsComponent } from './Component/selectbus-page/right/small-seats/small-seats.component';
+import { BusBookingFormComponent } from './Component/selectbus-page/right/bus-booking-form/bus-booking-form.component';
 
 
 @NgModule({
@@ -34,7 +35,8 @@ import { SmallSeatsComponent } from './Component/selectbus-page/right/small-seat
     BottomTabComponent,
     ViewSeatsComponent,
     FormDrawerComponent,
-    SmallSeatsComponent
+    SmallSeatsComponent,
+    BusBookingFormComponent
   ],
   imports: [
     BrowserModule,
