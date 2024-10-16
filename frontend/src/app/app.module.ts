@@ -20,6 +20,7 @@ import { SmallSeatsComponent } from './Component/selectbus-page/right/small-seat
 import { BusBookingFormComponent } from './Component/selectbus-page/right/bus-booking-form/bus-booking-form.component';
 import { PaymentPageComponent } from './Component/payment-page/payment-page.component';
 import { ProfilePageComponent } from './Component/profile-page/profile-page.component';
+import { MyTripComponent } from './Component/profile-page/my-trip/my-trip.component';
 
 
 @NgModule({
@@ -40,7 +41,8 @@ import { ProfilePageComponent } from './Component/profile-page/profile-page.comp
     SmallSeatsComponent,
     BusBookingFormComponent,
     PaymentPageComponent,
-    ProfilePageComponent
+    ProfilePageComponent,
+    MyTripComponent
   ],
   imports: [
     BrowserModule,
