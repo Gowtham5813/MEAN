@@ -15,6 +15,7 @@ import { SortingBarComponent } from './Component/selectbus-page/right/sorting-ba
 import { BusBoxComponent } from './Component/selectbus-page/right/bus-box/bus-box.component';
 import { BottomTabComponent } from './Component/selectbus-page/right/bus-book/bottom-tab/bottom-tab.component';
 import { ViewSeatsComponent } from './Component/selectbus-page/right/view-seats/view-seats.component';
+import { FormDrawerComponent } from './Component/selectbus-page/right/form-drawer/form-drawer.component';
 
 
 @NgModule({
@@ -30,7 +31,8 @@ import { ViewSeatsComponent } from './Component/selectbus-page/right/view-seats/
     SortingBarComponent,
     BusBoxComponent,
     BottomTabComponent,
-    ViewSeatsComponent
+    ViewSeatsComponent,
+    FormDrawerComponent
   ],
   imports: [
     BrowserModule,
