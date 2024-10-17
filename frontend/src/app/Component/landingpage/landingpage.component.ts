@@ -4,8 +4,8 @@ import { MatDialog } from '@angular/material/dialog';
 import { DialogComponent } from './dialog/dialog.component';
 @Component({
   selector: 'app-landing-page',
-  templateUrl: './landing-page.component.html',
-  styleUrl: './landing-page.component.css'
+  templateUrl: './landingpage.component.html',
+  styleUrl: './landingpage.component.css'
 })
 export class LandingPageComponent {
   fromoption: string = ''
