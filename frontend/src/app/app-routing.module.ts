@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { LandingpageComponent } from './Component/landingpage/landingpage.component';
+import { LandingPageComponent } from './Component/landingpage/landingpage.component';
 import { SelectbusPageComponent } from './Component/selectbus-page/selectbus-page.component';
 import { PaymentPageComponent } from './Component/payment-page/payment-page.component';
 import { ProfilePageComponent } from './Component/profile-page/profile-page.component';
 
 const routes: Routes = [
-  {path:'',component:LandingpageComponent},
+  {path:'',component:LandingPageComponent},
   {path:'select-bus',component:SelectbusPageComponent},
   {path:'payment',component:PaymentPageComponent},
   {path:'profile',component:ProfilePageComponent}
