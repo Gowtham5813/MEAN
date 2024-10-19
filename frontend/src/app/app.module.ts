@@ -32,7 +32,7 @@ import { BusBookingFormComponent } from './Component/selectbus-page/right/bus-bo
 import { PaymentPageComponent } from './Component/payment-page/payment-page.component';
 import { ProfilePageComponent } from './Component/profile-page/profile-page.component';
 import { MyTripComponent } from './Component/profile-page/my-trip/my-trip.component';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClientModule ,provideHttpClient,withFetch} from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -69,9 +69,11 @@ import { HttpClientModule } from '@angular/common/http';
     CommonModule,
     MatSidenavModule,
     MatDividerModule,
-    HttpClientModule
+    HttpClientModule,
+    // withFetch
   ],
-  providers: [provideNativeDateAdapter()],
-  bootstrap: [AppComponent]
+  providers: [provideNativeDateAdapter(),provideHttpClient(withFetch())],
+  bootstrap: [AppComponent],
+ 
 })
 export class AppModule { }

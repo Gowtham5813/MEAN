@@ -53,7 +53,7 @@ handlelogin(response:any){
       sessionStorage.setItem("Loggedinuser",JSON.stringify(response))
     },
     error:(error)=>{
-      console.error('Post request failed',error)
+      console.error('Posr request failed',error)
     }
   })
 }
